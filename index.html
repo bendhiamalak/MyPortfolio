@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Malek Bendhia | Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="img/mee.png" />
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="preloader-content">
+        <div class="logo-container">
+          <div class="preloader-logo">MB</div>
+          <div class="logo-glow"></div>
+        </div>
+        <h2 class="loading-text">Malek Bendhia</h2>
+        <p class="loading-subtitle">Portfolio</p>
+        <div class="loading-bar">
+          <div class="loading-progress"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+      <div class="logo">MB</div>
+      <div class="nav-links" id="navLinks">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#certificates">Certificates</a></li>
+          <li><a href="#associative">Volunteering</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="menu-toggle" id="menuToggle">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Malek Bendhia</h1>
+          <h2>Software Engineering Student</h2>
+          <p>Fullstack Developer | AI Enthusiast</p>
+          <div class="hero-buttons">
+            <a href="#" class="btn primary-btn">Download CV</a>
+            <div class="social-icons">
+              <a href="https://github.com/bendhiamalak" target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/malek-bendhia-471ab9216/"
+                target="_blank"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="blob"></div>
+          <div class="circle-1"></div>
+          <div class="circle-2"></div>
+          <img src="img/mee.png" alt="Hero Image" class="hero-img" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="section-title">
+        <h2>About Me</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="about-content">
+        <div class="about-image">
+          <div class="image-container">
+            <div class="image-border"></div>
+            <img src="img/ame.png" alt="Malek Bendhia" class="about-img" />
+          </div>
+        </div>
+        <div class="about-text">
+          <p>
+            Second-year Software Engineering student passionate about fullstack
+            development (Angular & Spring Boot) and Artificial
+            Intelligence/Machine Learning.
+          </p>
+          <p>
+            I'm constantly seeking new challenges and opportunities to develop
+            my skills and contribute to innovative projects. My goal is to
+            create technological solutions that have a positive impact on
+            society.
+          </p>
+          <div class="about-details">
+            <div class="detail">
+              <i class="fas fa-graduation-cap"></i>
+              <span>University of Carthage</span>
+            </div>
+            <div class="detail">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Tunis, Tunisia</span>
+            </div>
+            <div class="detail">
+              <i class="fas fa-envelope"></i>
+              <span>malek.bendhia0@gmail.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="section-title">
+        <h2>My Projects</h2>
+        <div class="underline"></div>
+      </div>
+
+      <div class="project-tabs">
+        <button class="project-tab active" data-target="dev-projects">
+          Development Projects
+        </button>
+        <button class="project-tab" data-target="ai-projects">
+          AI Projects
+        </button>
+      </div>
+
+      <div id="dev-projects" class="projects-category active">
+        <div class="projects-content">
+          <!-- Eventi Project -->
+          <div class="project-card">
+            <div class="project-image">
+              <img src="img/eventi.png" alt="CABIDENT Project" />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a
+                    href="https://github.com/bendhiamalak?tab=repositories"
+                    target="_blank"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Eventi</h3>
+              <p>
+                Event management platform allowing users to create, discover and
+                register for local events.
+              </p>
+              <div class="project-tech">
+                <span>Angular</span>
+                <span>Spring Boot</span>
+                <span>PostgreSQL</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- CABIDENT Project -->
+          <div class="project-card">
+            <div class="project-image">
+              <img src="img/cabi.png" alt="CABIDENT Project" />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="https://cabident-ef1fc.web.app/" target="_blank"
+                    ><i class="fas fa-external-link-alt"></i
+                  ></a>
+                  <a
+                    href="https://github.com/bendhiamalak/CABIDENT"
+                    target="_blank"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>CABIDENT</h3>
+              <p>
+                Medical application for dental clinics to manage patient records
+                and appointments.
+              </p>
+              <div class="project-tech">
+                <span>Angular</span>
+                <span>Express</span>
+                <span>Firebase</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- ToDo App Project -->
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="img/todoAPI.png"
+                onerror="this.onerror=null; this.src='img/placeholder-api.png'; this.parentElement.classList.add('placeholder-image');"
+              />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a
+                    href="https://github.com/bendhiamalak/TodoAppApi"
+                    target="_blank"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>ToDo App – Backend API</h3>
+              <p>
+                A scalable RESTful API for task management built with Spring
+                Boot, featuring multi-user support, task filtering, and
+                comprehensive documentation.
+              </p>
+              <div class="project-tech">
+                <span>Spring Boot</span>
+                <span>PostgreSQL</span>
+                <span>REST API</span>
+                <span>Swagger</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="ai-projects" class="projects-category">
+        <div class="projects-content">
+          <!-- Email Phishing Detection Project -->
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="img/email.webp"
+                alt="Email Phishing Detection"
+                onerror="this.onerror=null; this.src='img/placeholder-ai.png'; this.parentElement.classList.add('placeholder-image');"
+              />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" target="_blank"
+                    ><i class="fas fa-external-link-alt"></i
+                  ></a>
+                  <a href="https://github.com/bendhiamalak" target="_blank"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Email Phishing Detection</h3>
+              <p>
+                Machine learning model that analyzes email content and metadata
+                to identify phishing attempts with high accuracy, helping
+                protect users from cyber threats.
+              </p>
+              <div class="project-tech">
+                <span>Python</span>
+                <span>NLP</span>
+                <span>Scikit-learn</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Home Insurance Claims Prediction Project -->
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="img/house.jpg"
+                alt="Home Insurance Claims Prediction"
+                onerror="this.onerror=null; this.src='img/placeholder-ai.png'; this.parentElement.classList.add('placeholder-image');"
+              />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" target="_blank"
+                    ><i class="fas fa-external-link-alt"></i
+                  ></a>
+                  <a href="https://github.com/bendhiamalak" target="_blank"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Home Insurance Claims Prediction</h3>
+              <p>
+                Machine learning model that predicts whether a building will
+                file an insurance claim during the coverage period, helping
+                insurers automate and personalize contract offerings.
+              </p>
+              <div class="project-tech">
+                <span>Python</span>
+
+                <span>Scikit-learn</span>
+                <span>Pandas</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+      <div class="section-title">
+        <h2>Professional Experience</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="experience-content">
+        <div class="experience-tabs">
+          <div class="experience-tab active" data-target="exp-tridevs">
+            <h3>Fullstack Intern</h3>
+            <p class="company-name">Tridevs</p>
+            <p class="experience-date">06/2024 - 08/2024</p>
+          </div>
+          <div class="experience-tab" data-target="exp-peec">
+            <h3>Entrepreneurship Trainee</h3>
+            <p class="company-name">PEEC</p>
+            <p class="experience-date">01/2022 - 11/2023</p>
+          </div>
+          <div class="experience-tab" data-target="exp-systematic">
+            <h3>Summer Intern</h3>
+            <p class="company-name">Systematic - ERP</p>
+            <p class="experience-date">06/2022 - 07/2022</p>
+          </div>
+        </div>
+
+        <div class="experience-details">
+          <div id="exp-tridevs" class="experience-detail active">
+            <div class="experience-header">
+              <h3>Fullstack Intern (Angular & Spring Boot)</h3>
+              <div class="experience-company">
+                <span class="company-name">Tridevs</span>
+                <span class="company-location">Tunis, Tunisia</span>
+              </div>
+            </div>
+            <div class="experience-description">
+              <ul>
+                <li>
+                  Built a web-based QCM (Questionnaire à Choix Multiples)
+                  generator for education and testing.
+                </li>
+                <li>
+                  Developed a dynamic, user-friendly frontend using Angular.
+                </li>
+                <li>
+                  Integrated Spring Boot for backend logic and API development.
+                </li>
+                <li>
+                  Applied concepts of authentication (JWT), routing, and RESTful
+                  APIs to create a complete fullstack project.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div id="exp-peec" class="experience-detail">
+            <div class="experience-header">
+              <h3>Entrepreneurship Trainee</h3>
+              <div class="experience-company">
+                <span class="company-name"
+                  >POLE ETUDIANT ENTREPRENEUR DE CARTHAGE (PEEC)</span
+                >
+                <span class="company-location">Tunis, Tunisia</span>
+              </div>
+            </div>
+            <div class="experience-description">
+              <ul>
+                <li>
+                  Explored the fundamentals of entrepreneurship, from ideation
+                  to pitching.
+                </li>
+                <li>
+                  Delivered a compelling pitch in front of a panel of experts,
+                  receiving feedback and validation on the project concept.
+                </li>
+                <li>
+                  Gained exposure to the entrepreneurial ecosystem and lean
+                  startup methodology.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div id="exp-systematic" class="experience-detail">
+            <div class="experience-header">
+              <h3>Summer Intern</h3>
+              <div class="experience-company">
+                <span class="company-name">Systematic - ERP</span>
+                <span class="company-location">Hammamet, Tunisia</span>
+              </div>
+            </div>
+            <div class="experience-description">
+              <ul>
+                <li>
+                  Immersed in a real-world software development environment to
+                  understand team collaboration and professional workflows.
+                </li>
+                <li>
+                  Strengthened foundational knowledge of Object-Oriented
+                  Programming (OOP) principles.
+                </li>
+                <li>
+                  Developed simple CRUD (Create, Read, Update, Delete)
+                  applications to apply OOP concepts in practical use cases.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates">
+      <div class="section-title">
+        <h2>Certificates</h2>
+        <div class="underline"></div>
+      </div>
+
+      <div class="certificates-carousel">
+        <div class="carousel-container">
+          <div class="carousel-track">
+            <!-- AWS Certificate -->
+            <div class="certificate-card">
+              <div class="certificate-image">
+                <img
+                  src="./img/AWS.png"
+                  alt="AWS Certificate"
+                  onerror="this.onerror=null; this.src='./img/AWS.png'; console.log('Trying PNG format for AWS');"
+                />
+                <div class="certificate-overlay">
+                  <a
+                    href="https://www.credly.com/badges/911b7e55-963b-41cf-8451-1431579e5fab/public_url"
+                    class="view-certificate"
+                    target="_blank"
+                    >View Certificate</a
+                  >
+                </div>
+              </div>
+              <div class="certificate-info">
+                <h3>AWS Educate: Getting Started with Storage</h3>
+                <p class="certificate-issuer">Amazon Web Services</p>
+                <p class="certificate-date">2023</p>
+              </div>
+            </div>
+
+            <!-- NVIDIA Deep Learning Certificate -->
+            <div class="certificate-card">
+              <div class="certificate-image">
+                <img
+                  src="./img/deepLearning.png"
+                  alt="NVIDIA Certificate"
+                  onerror="this.onerror=null; this.src='./img/deepLearning.png'; console.log('Trying PNG format for deepLearning');"
+                />
+                <div class="certificate-overlay">
+                  <a
+                    href="https://www.linkedin.com/in/malek-bendhia-471ab9216/overlay/1739123508036/single-media-viewer/?profileId=ACoAADaf0lUBDRl_8cxWA5LkwIDC3fZHD2msj-A"
+                    class="view-certificate"
+                    target="_blank"
+                    >View Certificate</a
+                  >
+                </div>
+              </div>
+              <div class="certificate-info">
+                <h3>Getting Started with Deep Learning</h3>
+                <p class="certificate-issuer">NVIDIA</p>
+                <p class="certificate-date">2023</p>
+              </div>
+            </div>
+
+            <!-- DataCamp AI Certificate -->
+            <div class="certificate-card">
+              <div class="certificate-image">
+                <img
+                  src="./img/AI.png"
+                  alt="DataCamp Certificate"
+                  onerror="this.onerror=null; this.src='./img/AI.png'; console.log('Trying PNG format for AI');"
+                />
+                <div class="certificate-overlay">
+                  <a
+                    href="https://www.datacamp.com/skill-verification/AIF0028162921690"
+                    class="view-certificate"
+                    target="_blank"
+                    >View Certificate</a
+                  >
+                </div>
+              </div>
+              <div class="certificate-info">
+                <h3>AI Fundamentals</h3>
+                <p class="certificate-issuer">DataCamp</p>
+                <p class="certificate-date">2023</p>
+              </div>
+            </div>
+
+            <!-- Git and GitHub Certificate -->
+            <div class="certificate-card">
+              <div class="certificate-image">
+                <img
+                  src="./img/gitGithub.png"
+                  alt="Git Certificate"
+                  onerror="this.onerror=null; this.src='./img/gitGithub.png'; console.log('Trying PNG format for gitGithub');"
+                />
+                <div class="certificate-overlay">
+                  <a
+                    href="https://learn.365datascience.com/certificates/CC-689E3A81D5/"
+                    class="view-certificate"
+                    target="_blank"
+                    >View Certificate</a
+                  >
+                </div>
+              </div>
+              <div class="certificate-info">
+                <h3>Git and GitHub</h3>
+                <p class="certificate-issuer">365 Data Science</p>
+                <p class="certificate-date">2022</p>
+              </div>
+            </div>
+
+            <!-- Python Data Science Certificate -->
+            <div class="certificate-card">
+              <div class="certificate-image">
+                <img
+                  src="./img/udemy.png"
+                  alt="Python Certificate"
+                  onerror="this.onerror=null; this.src='./img/udemy.png'; console.log('Trying PNG format for udemy');"
+                />
+                <div class="certificate-overlay">
+                  <a
+                    href="https://www.udemy.com/certificate/UC-2a28d943-1040-47ee-b0ed-4cee7d6fa886/"
+                    class="view-certificate"
+                    target="_blank"
+                    >View Certificate</a
+                  >
+                </div>
+              </div>
+              <div class="certificate-info">
+                <h3>Python pour Data Science</h3>
+                <p class="certificate-issuer">Udemy</p>
+                <p class="certificate-date">2022</p>
+              </div>
+            </div>
+
+            <!-- Kaggle ML Certificate -->
+            <div class="certificate-card">
+              <div class="certificate-image">
+                <img
+                  src="./img/kaggle.png"
+                  alt="ML Certificate"
+                  onerror="this.onerror=null; this.src='./img/kaggle.png'; console.log('Trying PNG format for kaggle');"
+                />
+                <div class="certificate-overlay">
+                  <a
+                    href="https://www.kaggle.com/learn/certification/malakbendhia/intro-to-machine-learning"
+                    class="view-certificate"
+                    target="_blank"
+                    >View Certificate</a
+                  >
+                </div>
+              </div>
+              <div class="certificate-info">
+                <h3>Intro to Machine Learning</h3>
+                <p class="certificate-issuer">Kaggle</p>
+                <p class="certificate-date">2022</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-nav">
+          <button class="carousel-prev">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <div class="carousel-dots"></div>
+          <button class="carousel-next">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Associative Life Section -->
+    <section id="associative" class="associative">
+      <div class="section-title">
+        <h2>Volunteering</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="associative-content">
+        <div class="associative-text">
+          <h3>Google Developer Student Clubs (GDSC)</h3>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h4>Team Lead</h4>
+                <p class="timeline-date">2023 - Present</p>
+                <p>
+                  Leading a team of passionate students to organize tech events,
+                  workshops, and hackathons. Coordinating with Google to bring
+                  resources and opportunities to campus.
+                </p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h4>Logistics Lead</h4>
+                <p class="timeline-date">2022 - 2023</p>
+                <p>
+                  Managed event logistics, venue arrangements, and equipment
+                  setup for all GDSC activities. Ensured smooth execution of
+                  workshops and tech talks.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="associative-gallery">
+          <div class="gallery-item">
+            <img
+              src="./img/volunteer/ra.jpg"
+              alt="GDSC Event 1"
+              class="gallery-img"
+              onerror="this.onerror=null; this.src='./volunteer/gdsc1.png';"
+            />
+            <div class="gallery-overlay">
+              <span>Radio Session</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="./img/volunteer/teamBuilding.jpg"
+              alt="GDSC Event 2"
+              class="gallery-img"
+              onerror="this.onerror=null; this.src='./volunteer/gdsc2.png';"
+            />
+            <div class="gallery-overlay">
+              <span>Team Building</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="./img/volunteer/googleIO.jpg"
+              alt="GDSC Event 3"
+              class="gallery-img"
+              onerror="this.onerror=null; this.src='./volunteer/gdsc3.png';"
+            />
+            <div class="gallery-overlay">
+              <span>Google I/O Extended</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="./img/volunteer/PEEC.jpg"
+              alt="GDSC Event 4"
+              class="gallery-img"
+              onerror="this.onerror=null; this.src='./volunteer/gdsc4.png';"
+            />
+            <div class="gallery-overlay">
+              <span>Tech Talk</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="./img/volunteer/women.jpg"
+              alt="GDSC Event 5"
+              class="gallery-img"
+              onerror="this.onerror=null; this.src='./volunteer/gdsc5.png';"
+            />
+            <div class="gallery-overlay">
+              <span>Community Meetup</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="section-title">
+        <h2>Get In Touch</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h3>Email</h3>
+              <p>malek.bendhia0@gmail.com</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h3>Location</h3>
+              <p>Tunis, Tunisia</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <div>
+              <h3>Phone</h3>
+              <p>+216 25 368 668</p>
+            </div>
+          </div>
+          <div class="social-links">
+            <a
+              href="https://github.com/bendhiamalak"
+              target="_blank"
+              aria-label="GitHub"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/malek-bendhia-471ab9216/"
+              target="_blank"
+              aria-label="LinkedIn"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+
+            <a
+              href="https://medium.com/@malek.bendhia0"
+              target="_blank"
+              aria-label="Instagram"
+              ><i class="fa-brands fa-medium"></i
+            ></a>
+
+            <a
+              href="https://leetcode.com/u/bendhiamalak123/"
+              target="_blank"
+              aria-label="Instagram"
+              ><i class="cib-leetcode"></i
+            ></a>
+          </div>
+        </div>
+        <div class="contact-form">
+          <form id="contactForm">
+            <div class="form-group">
+              <input type="text" id="name" placeholder="Your Name" required />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                id="email"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input type="text" id="subject" placeholder="Subject" required />
+            </div>
+            <div class="form-group">
+              <textarea
+                id="message"
+                placeholder="Your Message"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn primary-btn">Send Message</button>
+          </form>
+          <div class="form-status">
+            <p id="formSuccess" class="success-message">
+              Your message has been sent successfully!
+            </p>
+            <p id="formError" class="error-message">
+              There was an error sending your message. Please try again.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Malek Bendhia. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
